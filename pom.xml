@@ -11,7 +11,7 @@
 
   <properties>
     <vertx.version>3.5.0.Beta1</vertx.version>
-    <vertx.verticle>io.vertx.sample.HelloWorldVerticle</vertx.verticle>
+    <vertx.verticle>io.vertx.sample.BaggageVerticle</vertx.verticle>
   </properties>
 
   <dependencyManagement>

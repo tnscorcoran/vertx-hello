@@ -11,11 +11,11 @@ import io.vertx.ext.web.RoutingContext;
 
 
 
-public class HelloWorldVerticle extends AbstractVerticle {
+public class BaggageVerticle extends AbstractVerticle {
 
 	private List<BaggageItem> baggages;
 	private int maxBaggageId = 1;
-    public HelloWorldVerticle() {
+    public BaggageVerticle() {
 		super();
 		baggages = new ArrayList<BaggageItem>();
 		
