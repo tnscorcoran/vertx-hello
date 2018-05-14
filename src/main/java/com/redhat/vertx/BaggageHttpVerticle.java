@@ -32,7 +32,7 @@ public class BaggageHttpVerticle extends AbstractVerticle {
     public void start() {
         Router router = Router.router(vertx);
 
-        router.get("//baggage/intl/items").handler(this::baggage);
+        router.get("/baggage/intl/items").handler(this::baggage);
         
         vertx.createHttpServer()
             .requestHandler(router::accept)
