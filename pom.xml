@@ -8,7 +8,7 @@
 
   <properties>
     <vertx.projectVersion>3.4.1</vertx.projectVersion>
-    <vertx.verticle>com.redhat.gpte.appmod.HelloHttpVerticle</vertx.verticle>
+    <vertx.verticle>com.redhat.vertx.BaggageHttpVerticle</vertx.verticle>
   </properties>
 
   <dependencyManagement>
@@ -70,4 +70,6 @@
       </build>
     </profile>
   </profiles>
+  
+  
 </project>
