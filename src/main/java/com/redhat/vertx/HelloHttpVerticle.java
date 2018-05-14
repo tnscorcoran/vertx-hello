@@ -1,4 +1,4 @@
-package com.redhat.gpte.appmod;
+package com.redhat.vertx;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpHeaders;
