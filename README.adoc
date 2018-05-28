@@ -13,3 +13,20 @@ And run with:
 ----
 java -jar [build/libs|target]/vertx-hello-world-VERSION.jar
 ----
+
+To run on Openshift
+-------------------
+
+oc new-project vertx
+
+oc new-app openshift/redhat-openjdk18-openshift:1.3~https://github.com/tnscorcoran/vertx-hello.git
+
+oc expose service vertx-hello
+
+Test it out:
+
+curl route/baggage/intl/items
+
+in my case:
+
+curl http://vertx-hello-vertx.apps.1.1.1.1.nip.io/baggage/intl/items
